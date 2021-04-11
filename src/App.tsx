@@ -1,25 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import AppContext from "./AppContext";
+import { useState } from "react";
+import Header from "./layout/header";
+import Main from "./layout/main";
+import appState from "./AppState";
+import { storageInstace } from "@utilities/storage";
+import { AppStateInterface } from "@library/common/types/AppState";
 
 function App() {
+  const [state, update] = useState(storageInstace.getState() ?? appState);
+  const pipeUpdate = (state: AppStateInterface) => {
+    storageInstace.setState(state);
+    update(state);
+  };
+
+  const v = { state: state, updateState: pipeUpdate };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <AppContext.Provider value={v}>
+      <div className={`App ${state.isDarkMode ? "dark" : ""}`}>
+        <Header />
+        <Main />
+      </div>
+    </AppContext.Provider>
   );
 }
 

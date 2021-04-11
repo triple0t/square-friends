@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "baseUrl": "src",
+      "paths": {
+        "@library/*": ["library/*"],
+        "@common/*": ["library/common/*"],
+        "@utilities/*": ["library/utilities/*"]
+      }  
+    },
+    "include": ["src"],
+    "exclude": ["node_modules", "build"]
+  }
+  
