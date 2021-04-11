@@ -4,8 +4,6 @@ Created for the Square Friends App Challenge
 
 Locate App here:s [https://triple0t.github.io/square-friends/](https://triple0t.github.io/square-friends)
 
-
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Setup
@@ -27,6 +25,22 @@ You can locate the Translation files here: `*src/locals*`
 We currently have support for only **English** and **French**
 More can be added by Coping the keys from any of `en.json` or `fr.json` and updating the Array on `*src/components/language-selector.tsx*`
 
+`Friends list json`
+
+The UI is generated from the Friends List json file located at: `public/friendslist.json`
+
+You can add, update and remove friends from the list.
+
+## Features
+
+- Pulling Friends from json file: `public/friendslist.json`
+- Responsive Application accross all devices
+- Language localization with support for English and French
+- UI component using Tailwind
+- Ability to Star, Favorite and Follow a Friend
+- Custom Friend Detail Page
+- Persistent Storage on the Browser with localstorage
+- Support for Dark Mode
 
 ## Available Scripts
 
