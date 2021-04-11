@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/square-friends/static/css/main.75cf2a5f.chunk.css",
-    "main.js": "/square-friends/static/js/main.8d9a180f.chunk.js",
-    "main.js.map": "/square-friends/static/js/main.8d9a180f.chunk.js.map",
+    "main.js": "/square-friends/static/js/main.9c0e13a5.chunk.js",
+    "main.js.map": "/square-friends/static/js/main.9c0e13a5.chunk.js.map",
     "runtime-main.js": "/square-friends/static/js/runtime-main.f74ddca6.js",
     "runtime-main.js.map": "/square-friends/static/js/runtime-main.f74ddca6.js.map",
     "static/js/2.382df4f8.chunk.js": "/square-friends/static/js/2.382df4f8.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.f74ddca6.js",
     "static/js/2.382df4f8.chunk.js",
     "static/css/main.75cf2a5f.chunk.css",
-    "static/js/main.8d9a180f.chunk.js"
+    "static/js/main.9c0e13a5.chunk.js"
   ]
 }
