@@ -2,6 +2,7 @@
   "name": "square-friends",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://triple0t.github.io/square-friends",
   "dependencies": {
     "@craco/craco": "^6.1.1",
     "@testing-library/jest-dom": "^5.11.10",
@@ -24,7 +25,16 @@
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "eslint src",
+    "format:fix": "pretty-quick --staged",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "run-s format:fix lint"
+    }
   },
   "eslintConfig": {
     "extends": [
@@ -47,7 +57,11 @@
   "devDependencies": {
     "@tailwindcss/postcss7-compat": "^2.1.0",
     "autoprefixer": "^9.8.6",
+    "eslint": "^7.24.0",
+    "gh-pages": "^3.1.0",
+    "husky": "^6.0.0",
     "postcss": "^7.0.35",
+    "prettier": "^2.2.1",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.1.0"
   }
 }

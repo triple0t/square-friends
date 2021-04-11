@@ -10,6 +10,19 @@ npm install
 npm run
 ```
 
+## Project Structure
+
+App is in `src`
+This contains the whole Application files
+
+`Translation`
+
+You can locate the Translation files here: `*src/locals*`
+
+We currently have support for only **English** and **French**
+More can be added by Coping the keys from any of `en.json` or `fr.json` and updating the Array on `*src/components/language-selector.tsx*`
+
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -39,3 +52,12 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### `npm run eject`
 
+## Libraries used in this project
+
+- TypeScript for types
+- Tailwind CSS for UI styling
+- ESLint & Prettier for code formatting and linting
+- Craco for customizing Create React App
+- Jest for testing
+- Axios for networking
+- Heroicons for icons

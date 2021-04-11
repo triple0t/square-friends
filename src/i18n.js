@@ -23,7 +23,7 @@ i18n
   .use(initReactI18next)
   .init({
     resources,
-    lng: appState.lang ?? "en",
+    lng: appState?.lang ?? "en",
 
     keySeparator: true,
 
