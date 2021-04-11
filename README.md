@@ -1,5 +1,10 @@
 # Square Friends App
 
+Created for the Square Friends App Challenge
+
+Locate App here:s [https://triple0t.github.io/square-friends/](https://triple0t.github.io/square-friends)
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

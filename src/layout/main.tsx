@@ -11,7 +11,8 @@ const Main = () => {
   const { state, updateState } = useContext(AppContext);
 
   useEffect(() => {
-    fetch("/friendslist.json")
+    const url = window.location.hostname === 'triple0t.github.io' ? '/square-friends/friendslist.json' : '/friendslist.json';
+    fetch(url)
       .then((res) => res.json())
       .then((friendslist: FriendsListResponse[]) => {
         if (state.allFriends && state.allFriends[0]?.id) {
