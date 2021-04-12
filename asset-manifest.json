@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/square-friends/static/css/main.75cf2a5f.chunk.css",
-    "main.js": "/square-friends/static/js/main.9c0e13a5.chunk.js",
-    "main.js.map": "/square-friends/static/js/main.9c0e13a5.chunk.js.map",
+    "main.css": "/square-friends/static/css/main.84aae35b.chunk.css",
+    "main.js": "/square-friends/static/js/main.22dd99fc.chunk.js",
+    "main.js.map": "/square-friends/static/js/main.22dd99fc.chunk.js.map",
     "runtime-main.js": "/square-friends/static/js/runtime-main.f74ddca6.js",
     "runtime-main.js.map": "/square-friends/static/js/runtime-main.f74ddca6.js.map",
     "static/js/2.382df4f8.chunk.js": "/square-friends/static/js/2.382df4f8.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.5bd02b19.chunk.js": "/square-friends/static/js/3.5bd02b19.chunk.js",
     "static/js/3.5bd02b19.chunk.js.map": "/square-friends/static/js/3.5bd02b19.chunk.js.map",
     "index.html": "/square-friends/index.html",
-    "static/css/main.75cf2a5f.chunk.css.map": "/square-friends/static/css/main.75cf2a5f.chunk.css.map",
+    "static/css/main.84aae35b.chunk.css.map": "/square-friends/static/css/main.84aae35b.chunk.css.map",
     "static/js/2.382df4f8.chunk.js.LICENSE.txt": "/square-friends/static/js/2.382df4f8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f74ddca6.js",
     "static/js/2.382df4f8.chunk.js",
-    "static/css/main.75cf2a5f.chunk.css",
-    "static/js/main.9c0e13a5.chunk.js"
+    "static/css/main.84aae35b.chunk.css",
+    "static/js/main.22dd99fc.chunk.js"
   ]
 }
