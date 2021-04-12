@@ -1,66 +1,66 @@
 [
-    {
-        "id": "aeg5PsXEwM",
-        "name": "Mayke Schuurs",
-        "username": "@maymayke",
-        "bio": "Not a Man but a Ghost 👻",
-        "profile_image": "https://res.cloudinary.com/dxp35xvh8/image/upload/q_auto:eco/v1618136038/square_friends/d5d41d9087afa3317f329f777c571f99_lih9xr.png",
-        "header_image": "https://res.cloudinary.com/dxp35xvh8/image/upload/q_auto:eco/v1618136242/square_friends/9569feeb27fab30fbb1ee817aa88c9bc_fcmiqi.png"
-    },
-    {
-        "id": "mLm03Vn0OM",
-        "name": "Tiontay Carroll",
-        "username": "@tatay",
-        "bio": "Interaction Designer | Coffe Addict | Part time Traveller | Full time Mom of Baby and Bayi.",
-        "profile_image": "https://res.cloudinary.com/dxp35xvh8/image/upload/q_auto:eco/v1618136365/square_friends/49492d855f7b1ac32c364aa7c0ad34a7_lii3ew.png",
-        "header_image": "https://res.cloudinary.com/dxp35xvh8/image/upload/q_auto:eco/v1618136395/square_friends/83c04f62ca2598ca619b0a18d2f0f168_le1llv.png"
-    },
-    {
-        "id": "fm8_FoXHok",
-        "name": "Ngô Hải Giang",
-        "username": "@ngohaitong",
-        "bio": "Pushing pixels and experiences in digital products for onetwothree | Coffee(nosugar)",
-        "profile_image": "https://res.cloudinary.com/dxp35xvh8/image/upload/q_auto:eco/v1618136430/square_friends/0baeff9734203c6821fedca2881ebfbf_quwkyt.png",
-        "header_image": "https://res.cloudinary.com/dxp35xvh8/image/upload/q_auto:eco/v1618136455/square_friends/eb10c90dac1be407383480527105c2ae_ofa5vb.png"
-    },
-    {
-        "id": "n71RcC__XM",
-        "name": "Chineze Uchechey",
-        "username": "@chinezeulala",
-        "bio": "Youtube Content Creator | Photography | Profesional Videographer",
-        "profile_image": "https://res.cloudinary.com/dxp35xvh8/image/upload/q_auto:eco/v1618136483/square_friends/f511e754e6b8009050f56bee81b648aa_gkejja.png",
-        "header_image": "https://res.cloudinary.com/dxp35xvh8/image/upload/q_auto:eco/v1618136511/square_friends/97d2a97cd2d52e5b73f6e357523ef49f_mv7hls.png"
-    },
-    {
-        "id": "3ECvGArsgb",
-        "name": "Xian Zhou",
-        "username": "@Xianzon",
-        "bio": "Life is a Choice baby :)",
-        "profile_image": "https://res.cloudinary.com/dxp35xvh8/image/upload/q_auto:eco/v1618136688/square_friends/07eac95e3f1ea1a9530596832a6b520e_ishedv.png",
-        "header_image": "https://res.cloudinary.com/dxp35xvh8/image/upload/q_auto:eco/v1618136725/square_friends/53bb7856c196027a07465906243ceb36_vomhip.png"
-    },
-    {
-        "id": "Ot4UobfIJB",
-        "name": "Anje Keizer",
-        "username": "@anjedrive",
-        "bio": "Not a Man but a Ghost 👻",
-        "profile_image": "https://res.cloudinary.com/dxp35xvh8/image/upload/q_auto:eco/v1618136788/square_friends/c97bc1f6dea1381923409a988d95c2eb_qkggwi.png",
-        "header_image": "https://res.cloudinary.com/dxp35xvh8/image/upload/q_auto:eco/v1618136823/square_friends/51176a6e881b08c86f55e84f8d5b1a70_zwp0x1.png"
-    },
-    {
-        "id": "feSjl984Vr",
-        "name": "Njimoluh Ebua",
-        "username": "@njipanji",
-        "bio": "Life is a Blessing",
-        "profile_image": "https://res.cloudinary.com/dxp35xvh8/image/upload/q_auto:eco/v1618136896/square_friends/893ce5205aca5a2520032ae69e7af159_ctiiwa.png",
-        "header_image": "https://res.cloudinary.com/dxp35xvh8/image/upload/q_auto:eco/v1618136936/square_friends/fb7836ffb80e15ea59c839d85bd2fff4_kienob.png"
-    },
-    {
-        "id": "052XjCx_v1",
-        "name": "Isaac Hunt",
-        "username": "@isaachunt",
-        "bio": "Pushing pixels and experiences in digital products for onetwothree | Coffee(nosugar)",
-        "profile_image": "https://res.cloudinary.com/dxp35xvh8/image/upload/q_auto:eco/v1618136994/square_friends/5c9cfe2e2c9627388e6993e4256079e2_wtmr8o.png",
-        "header_image": "https://res.cloudinary.com/dxp35xvh8/image/upload/q_auto:eco/v1618137034/square_friends/7faaa3492553af4e8e0e5a9b55d1ccd5_ubguou.png"
-    }
+  {
+    "id": "aeg5PsXEwM",
+    "name": "Mayke Schuurs",
+    "username": "@maymayke",
+    "bio": "Not a Man but a Ghost 👻",
+    "profile_image": "https://res.cloudinary.com/dxp35xvh8/image/upload/f_auto,q_auto:eco/v1618136038/square_friends/d5d41d9087afa3317f329f777c571f99_lih9xr.png",
+    "header_image": "https://res.cloudinary.com/dxp35xvh8/image/upload/f_auto,q_auto:eco/v1618136242/square_friends/9569feeb27fab30fbb1ee817aa88c9bc_fcmiqi.png"
+  },
+  {
+    "id": "mLm03Vn0OM",
+    "name": "Tiontay Carroll",
+    "username": "@tatay",
+    "bio": "Interaction Designer | Coffe Addict | Part time Traveller | Full time Mom of Baby and Bayi.",
+    "profile_image": "https://res.cloudinary.com/dxp35xvh8/image/upload/f_auto,q_auto:eco/v1618136365/square_friends/49492d855f7b1ac32c364aa7c0ad34a7_lii3ew.png",
+    "header_image": "https://res.cloudinary.com/dxp35xvh8/image/upload/f_auto,q_auto:eco/v1618136395/square_friends/83c04f62ca2598ca619b0a18d2f0f168_le1llv.png"
+  },
+  {
+    "id": "fm8_FoXHok",
+    "name": "Ngô Hải Giang",
+    "username": "@ngohaitong",
+    "bio": "Pushing pixels and experiences in digital products for onetwothree | Coffee(nosugar)",
+    "profile_image": "https://res.cloudinary.com/dxp35xvh8/image/upload/f_auto,q_auto:eco/v1618136430/square_friends/0baeff9734203c6821fedca2881ebfbf_quwkyt.png",
+    "header_image": "https://res.cloudinary.com/dxp35xvh8/image/upload/f_auto,q_auto:eco/v1618136455/square_friends/eb10c90dac1be407383480527105c2ae_ofa5vb.png"
+  },
+  {
+    "id": "n71RcC__XM",
+    "name": "Chineze Uchechey",
+    "username": "@chinezeulala",
+    "bio": "Youtube Content Creator | Photography | Profesional Videographer",
+    "profile_image": "https://res.cloudinary.com/dxp35xvh8/image/upload/f_auto,q_auto:eco/v1618136483/square_friends/f511e754e6b8009050f56bee81b648aa_gkejja.png",
+    "header_image": "https://res.cloudinary.com/dxp35xvh8/image/upload/f_auto,q_auto:eco/v1618136511/square_friends/97d2a97cd2d52e5b73f6e357523ef49f_mv7hls.png"
+  },
+  {
+    "id": "3ECvGArsgb",
+    "name": "Xian Zhou",
+    "username": "@Xianzon",
+    "bio": "Life is a Choice baby :)",
+    "profile_image": "https://res.cloudinary.com/dxp35xvh8/image/upload/f_auto,q_auto:eco/v1618136688/square_friends/07eac95e3f1ea1a9530596832a6b520e_ishedv.png",
+    "header_image": "https://res.cloudinary.com/dxp35xvh8/image/upload/f_auto,q_auto:eco/v1618136725/square_friends/53bb7856c196027a07465906243ceb36_vomhip.png"
+  },
+  {
+    "id": "Ot4UobfIJB",
+    "name": "Anje Keizer",
+    "username": "@anjedrive",
+    "bio": "Not a Man but a Ghost 👻",
+    "profile_image": "https://res.cloudinary.com/dxp35xvh8/image/upload/f_auto,q_auto:eco/v1618136788/square_friends/c97bc1f6dea1381923409a988d95c2eb_qkggwi.png",
+    "header_image": "https://res.cloudinary.com/dxp35xvh8/image/upload/f_auto,q_auto:eco/v1618136823/square_friends/51176a6e881b08c86f55e84f8d5b1a70_zwp0x1.png"
+  },
+  {
+    "id": "feSjl984Vr",
+    "name": "Njimoluh Ebua",
+    "username": "@njipanji",
+    "bio": "Life is a Blessing",
+    "profile_image": "https://res.cloudinary.com/dxp35xvh8/image/upload/f_auto,q_auto:eco/v1618136896/square_friends/893ce5205aca5a2520032ae69e7af159_ctiiwa.png",
+    "header_image": "https://res.cloudinary.com/dxp35xvh8/image/upload/f_auto,q_auto:eco/v1618136936/square_friends/fb7836ffb80e15ea59c839d85bd2fff4_kienob.png"
+  },
+  {
+    "id": "052XjCx_v1",
+    "name": "Isaac Hunt",
+    "username": "@isaachunt",
+    "bio": "Pushing pixels and experiences in digital products for onetwothree | Coffee(nosugar)",
+    "profile_image": "https://res.cloudinary.com/dxp35xvh8/image/upload/f_auto,q_auto:eco/v1618136994/square_friends/5c9cfe2e2c9627388e6993e4256079e2_wtmr8o.png",
+    "header_image": "https://res.cloudinary.com/dxp35xvh8/image/upload/f_auto,q_auto:eco/v1618137034/square_friends/7faaa3492553af4e8e0e5a9b55d1ccd5_ubguou.png"
+  }
 ]

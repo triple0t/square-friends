@@ -1,18 +1,18 @@
-import { FunctionComponent, useContext } from "react";
-import { useTranslation } from "react-i18next";
-import StarIcon from "@library/common/icons/StarIcon";
-import HeartIcon from "@library/common/icons/HeartIcon";
-import { Profile } from "@library/common/types";
-import AppContext from "../AppContext";
+import { FunctionComponent, useContext } from 'react';
+import { useTranslation } from 'react-i18next';
+import StarIcon from '@library/common/icons/StarIcon';
+import HeartIcon from '@library/common/icons/HeartIcon';
+import { Profile } from '@library/common/types';
+import AppContext from '../AppContext';
 
 interface Props {
   friendsDetails: Profile;
 }
 
 enum ActionType {
-  star = "star",
-  favorite = "favorite",
-  follow = "follow",
+  star = 'star',
+  favorite = 'favorite',
+  follow = 'follow',
 }
 
 const FriendsDetail: FunctionComponent<Props> = ({ friendsDetails }: Props) => {
@@ -40,17 +40,12 @@ const FriendsDetail: FunctionComponent<Props> = ({ friendsDetails }: Props) => {
 
       state.allFriends[currentIndex] = currentFriend;
       updateState({ ...state });
-    } else {
     }
   };
 
   return (
     <div>
-      <img
-        src={friendsDetails.header_image}
-        className="object-cover w-full h-80 ring-2"
-        alt={`for ${friendsDetails.name}`}
-      />
+      <img src={friendsDetails.header_image} className="object-cover w-full h-80 ring-2" alt={`for ${friendsDetails.name}`} />
       <img
         src={friendsDetails.profile_image}
         className="object-cover h-32 w-32 rounded-full mx-auto  -mt-10 z-10  border-8 border-white flex-none"
@@ -84,11 +79,11 @@ const FriendsDetail: FunctionComponent<Props> = ({ friendsDetails }: Props) => {
           onClick={() => updateAppState(ActionType.follow, friendsDetails)}
           className={`shadow-sm text-sm font-medium rounded-md ${
             friendsDetails.isFollowing
-              ? "text-white bg-blue-450 hover:bg-blue-700"
-              : "text-blue-450  border border-blue-450 dark:text-white dark:border-white  hover:bg-blue-700 hover:text-white"
+              ? 'text-white bg-blue-450 hover:bg-blue-700'
+              : 'text-blue-450  border border-blue-450 dark:text-white dark:border-white  hover:bg-blue-700 hover:text-white'
           }  p-2 focus:outline-none focus:ring-2 focus:ring-white`}
         >
-          <p>{friendsDetails.isFollowing ? t("following") : t("follow")}</p>
+          <p>{friendsDetails.isFollowing ? t('following') : t('follow')}</p>
         </button>
       </div>
       <div className="px-16 mt-10 dark:text-white">

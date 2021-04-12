@@ -1,14 +1,11 @@
-import SearchIcon from "@common/icons/SearchIcon";
-import FilterIcon from "@common/icons/FilterIcon";
-import SortByIcon from "@common/icons/SortByIcon";
+import FilterIcon from '@common/icons/FilterIcon';
+import SortByIcon from '@common/icons/SortByIcon';
+import Search from './search-component';
 
 const FriendListActionComponents = () => {
   return (
     <div className="flex">
-      <button className="p-1 rounded-full">
-        <span className="sr-only">Search</span>
-        {SearchIcon}
-      </button>
+      <Search />
       <button className="p-1 rounded-full">
         <span className="sr-only">Sort</span>
         {SortByIcon}

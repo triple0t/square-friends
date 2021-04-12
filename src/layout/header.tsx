@@ -1,11 +1,11 @@
-import { useState } from "react";
-import NotificationIcon from "@common/icons/NotificationIcon";
-import MenuIcon from "@common/icons/MenuIcon";
-import ChatIcon from "@common/icons/ChatIcon";
-import FriendsRequestIcon from "@common/icons/FriendsRequestIcon";
-import LanguageSelector from "../components/language-selector";
-import ThemeToggler from "../components/themeToggle";
-import LogoIcon from "@library/common/icons/Logo";
+import { useState } from 'react';
+import NotificationIcon from '@common/icons/NotificationIcon';
+import MenuIcon from '@common/icons/MenuIcon';
+import ChatIcon from '@common/icons/ChatIcon';
+import FriendsRequestIcon from '@common/icons/FriendsRequestIcon';
+import LanguageSelector from '../components/language-selector';
+import ThemeToggler from '../components/themeToggle';
+import LogoIcon from '@library/common/icons/Logo';
 
 const Header = () => {
   const [showProfileDropDown, toggleProfileDropDown] = useState(false);
@@ -24,11 +24,6 @@ const Header = () => {
               <div className="flex-shrink-0">
                 <div className="hidden:dark">
                   <LogoIcon />
-                </div>
-              </div>
-              <div className="hidden md:block">
-                <div className="ml-10 flex items-baseline space-x-4">
-                  {/* <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" --> */}
                 </div>
               </div>
               <LanguageSelector />
@@ -62,7 +57,7 @@ const Header = () => {
                       <span className="sr-only">Open user menu</span>
                       <img
                         className="h-8 w-8 rounded-full"
-                        src="https://res.cloudinary.com/dxp35xvh8/image/upload/v1618135767/square_friends/53d712c7ca01262e08c8afff4c2bcefe_wpxueb.png"
+                        src="https://res.cloudinary.com/dxp35xvh8/image/upload/f_auto,q_auto:eco/v1618135767/square_friends/53d712c7ca01262e08c8afff4c2bcefe_wpxueb.png"
                         alt=""
                       />
                     </button>
@@ -74,27 +69,15 @@ const Header = () => {
                       aria-orientation="vertical"
                       aria-labelledby="user-menu"
                     >
-                      <a
-                        href="/#"
-                        className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                        role="menuitem"
-                      >
+                      <a href="#/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">
                         Your Profile
                       </a>
 
-                      <a
-                        href="/#"
-                        className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                        role="menuitem"
-                      >
+                      <a href="#/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">
                         Settings
                       </a>
 
-                      <a
-                        href="/#"
-                        className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                        role="menuitem"
-                      >
+                      <a href="#/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">
                         Sign out
                       </a>
                     </div>
@@ -121,32 +104,19 @@ const Header = () => {
         {/* <!-- Mobile menu, show/hide based on menu state. --> */}
         {showMobileMenu && (
           <div className="md:hidden" id="mobile-menu">
-            <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-              {/* <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" --> */}
-              <a
-                href="/#"
-                className="dark:bg-gray-900 dark:text-white block px-3 py-2 rounded-md text-base font-medium"
-              >
-                Dashboard
-              </a>
-            </div>
             <div className="pt-4 pb-3 border-t border-gray-700">
               <div className="flex items-center px-5">
                 <button className="flex items-center" onClick={toggleProfile}>
                   <div className="flex-shrink-0">
                     <img
                       className="h-10 w-10 rounded-full"
-                      src="https://res.cloudinary.com/dxp35xvh8/image/upload/v1618135767/square_friends/53d712c7ca01262e08c8afff4c2bcefe_wpxueb.png"
-                      alt=""
+                      src="https://res.cloudinary.com/dxp35xvh8/image/upload/f_auto,q_auto:eco/v1618135767/square_friends/53d712c7ca01262e08c8afff4c2bcefe_wpxueb.png"
+                      alt="User Profile"
                     />
                   </div>
                   <div className="ml-3">
-                    <div className="text-base font-medium leading-none text-white">
-                      Tom Example
-                    </div>
-                    <div className="text-sm font-medium leading-none text-gray-400">
-                      tom@example.com
-                    </div>
+                    <div className="text-base font-medium leading-none text-white">Tom Example</div>
+                    <div className="text-sm font-medium leading-none text-gray-400">tom@example.com</div>
                   </div>
                 </button>
                 <button className="ml-auto dark:bg-gray-850 flex-shrink-0 p-1 rounded-full text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
@@ -165,21 +135,19 @@ const Header = () => {
               {showProfileDropDown && (
                 <div className="mt-3 px-2 space-y-1">
                   <a
-                    href="/#"
+                    href="#/"
                     className="block px-3 py-2 rounded-md text-base font-medium text-gray-400 hover:text-white hover:bg-gray-700"
                   >
                     Your Profile
                   </a>
-
                   <a
-                    href="/#"
+                    href="#/"
                     className="block px-3 py-2 rounded-md text-base font-medium text-gray-400 hover:text-white hover:bg-gray-700"
                   >
                     Settings
                   </a>
-
                   <a
-                    href="/#"
+                    href="#/"
                     className="block px-3 py-2 rounded-md text-base font-medium text-gray-400 hover:text-white hover:bg-gray-700"
                   >
                     Sign out

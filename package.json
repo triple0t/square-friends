@@ -30,7 +30,7 @@
     "format:fix": "pretty-quick --staged",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "prepare": "husky install"
+    "postinstall": "husky install"
   },
   "eslintConfig": {
     "extends": [
@@ -51,6 +51,7 @@
     ]
   },
   "devDependencies": {
+    "@tailwindcss/forms": "^0.3.2",
     "@tailwindcss/postcss7-compat": "^2.1.0",
     "autoprefixer": "^9.8.6",
     "eslint": "^7.24.0",
