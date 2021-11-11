@@ -1,15 +1,11 @@
 import { Profile } from "@library/common/types";
 
-const setInfo = (oldElement: Profile, newElement: Profile) => {
-  if (oldElement.isFavorite) {
-    newElement.isFavorite = oldElement.isFavorite;
-  }
-  if (oldElement.isStarred) {
-    newElement.isStarred = oldElement.isStarred;
-  }
-  if (oldElement.isFollowing) {
-    newElement.isFollowing = oldElement.isFollowing;
-  }
+const setInfo = (oldElement: Profile, newElement: Profile, propertiesToKeep: string[]) => {
+  propertiesToKeep.forEach((prop: string) => {
+    if (oldElement.hasOwnProperty(prop)) {
+      newElement[prop] = oldElement[prop];
+    }
+  });
   return newElement;
 };
 
@@ -19,9 +15,10 @@ const setInfo = (oldElement: Profile, newElement: Profile) => {
  * return newArray
  */
 const compareArray = (oldArray: Array<Profile>, newArray: Array<Profile>) => {
+  const propertiesToKeep = ['isFavorite', 'isStarred', 'isFollowing'];
   const returnedArray: Profile[] = [];
 
-  // a faster way of doign this
+  // a faster way of doing this
   if (
     oldArray.length === newArray.length &&
     oldArray[0].id === newArray[0].id
@@ -30,7 +27,7 @@ const compareArray = (oldArray: Array<Profile>, newArray: Array<Profile>) => {
       const oldElement = oldArray[index];
       const newElement = newArray[index];
 
-      returnedArray[index] = setInfo(oldElement, newElement);
+      returnedArray[index] = setInfo(oldElement, newElement, propertiesToKeep);
     }
     return returnedArray;
   } else {
@@ -40,7 +37,7 @@ const compareArray = (oldArray: Array<Profile>, newArray: Array<Profile>) => {
         const oldElement = e;
         const newElement = newArray[newid];
 
-        returnedArray[newid] = setInfo(oldElement, newElement);
+        returnedArray[newid] = setInfo(oldElement, newElement, propertiesToKeep);
       }
     });
     return returnedArray;
